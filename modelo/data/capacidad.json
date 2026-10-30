@@ -1,0 +1,64 @@
+{
+  "descripcion": "a[s]: capacidad maxima anual de flujo (posiciones de estiba) de un CEDI de tamano s = maximo de posiciones por dia x 25 dias x 12 meses. 'a_min' es el minimo del rango del tamano en la misma escala (el modelo actual no lo usa)",
+  "fuente": {
+    "archivo": "Datos_Demanda_Normalizados.xlsx",
+    "hoja": "Desción Tamaños CEDIS",
+    "tabla": "Z25"
+  },
+  "dias_operacion": {
+    "por_mes": 25,
+    "meses": 12,
+    "por_ano": 300
+  },
+  "conjuntos": {
+    "S": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "cedis_fijos": {
+    "descripcion": "CEDI siempre abiertos con tamano fijo (x[j][s] = 1); no son decision",
+    "tamano": {
+      "76001": "XL"
+    }
+  },
+  "posiciones_por_dia": {
+    "XS": {
+      "minimo": 1.0,
+      "maximo": 360.0
+    },
+    "S": {
+      "minimo": 361.0,
+      "maximo": 720.0
+    },
+    "M": {
+      "minimo": 721.0,
+      "maximo": 1080.0
+    },
+    "L": {
+      "minimo": 1081.0,
+      "maximo": 1440.0
+    },
+    "XL": {
+      "minimo": 1441.0,
+      "maximo": 1800.0
+    }
+  },
+  "a_min": {
+    "XS": 300.0,
+    "S": 108300.0,
+    "M": 216300.0,
+    "L": 324300.0,
+    "XL": 432300.0
+  },
+  "a": {
+    "XS": 108000.0,
+    "S": 216000.0,
+    "M": 324000.0,
+    "L": 432000.0,
+    "XL": 540000.0
+  }
+}

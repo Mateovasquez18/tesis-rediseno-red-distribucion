@@ -1,0 +1,9320 @@
+{
+  "tamanos": {
+    "Medellín": "L",
+    "Barranquilla": "XL",
+    "Bogotá": "XL",
+    "Pereira": "XS",
+    "Cali": "XL"
+  },
+  "estado": "Optimal",
+  "tiempo_segundos": 1.1337001323699951,
+  "costo_total": 269758383021.29678,
+  "cota_inferior": 269755810000.0,
+  "brecha": 9.754217643917053e-05,
+  "costos": {
+    "T_I": 173671361788.72626,
+    "T_II": 54194928194.207565,
+    "A_f": 22468572915.4069,
+    "A_v": 19423520122.95605
+  },
+  "cedis": [
+    {
+      "codigo": "5001",
+      "ciudad": "Medellín",
+      "abierto": true,
+      "tamano": "L",
+      "fijo": true,
+      "flujo_posiciones": 263848.0,
+      "capacidad": 432000.0,
+      "utilizacion": 0.6107592592592592,
+      "costo_fijo": 4097197336.6200576
+    },
+    {
+      "codigo": "8001",
+      "ciudad": "Barranquilla",
+      "abierto": true,
+      "tamano": "XL",
+      "fijo": true,
+      "flujo_posiciones": 197678.0,
+      "capacidad": 540000.0,
+      "utilizacion": 0.3660703703703704,
+      "costo_fijo": 5451079286.096254
+    },
+    {
+      "codigo": "11001",
+      "ciudad": "Bogotá",
+      "abierto": true,
+      "tamano": "XL",
+      "fijo": true,
+      "flujo_posiciones": 484738.0,
+      "capacidad": 540000.0,
+      "utilizacion": 0.897662962962963,
+      "costo_fijo": 6418118386.251227
+    },
+    {
+      "codigo": "66001",
+      "ciudad": "Pereira",
+      "abierto": true,
+      "tamano": "XS",
+      "fijo": true,
+      "flujo_posiciones": 34210.0,
+      "capacidad": 108000.0,
+      "utilizacion": 0.31675925925925924,
+      "costo_fijo": 980361035.0993593
+    },
+    {
+      "codigo": "76001",
+      "ciudad": "Cali",
+      "abierto": true,
+      "tamano": "XL",
+      "fijo": true,
+      "flujo_posiciones": 196444.0,
+      "capacidad": 540000.0,
+      "utilizacion": 0.3637851851851852,
+      "costo_fijo": 5521816871.34
+    }
+  ],
+  "asignacion_zonas": {
+    "5001": {
+      "municipio": "Medellín",
+      "departamento": "Antioquia",
+      "demanda": 97188.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5042": {
+      "municipio": "Santafé De Antioquia",
+      "departamento": "Antioquia",
+      "demanda": 4394.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5045": {
+      "municipio": "Apartadó",
+      "departamento": "Antioquia",
+      "demanda": 8148.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5079": {
+      "municipio": "Barbosa",
+      "departamento": "Antioquia",
+      "demanda": 9143.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5088": {
+      "municipio": "Bello",
+      "departamento": "Antioquia",
+      "demanda": 14764.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5129": {
+      "municipio": "Caldas",
+      "departamento": "Antioquia",
+      "demanda": 1747.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5154": {
+      "municipio": "Caucasia",
+      "departamento": "Antioquia",
+      "demanda": 10871.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5212": {
+      "municipio": "Copacabana",
+      "departamento": "Antioquia",
+      "demanda": 6184.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5266": {
+      "municipio": "Envigado",
+      "departamento": "Antioquia",
+      "demanda": 19860.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5308": {
+      "municipio": "Girardota",
+      "departamento": "Antioquia",
+      "demanda": 3230.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5360": {
+      "municipio": "Itagüí",
+      "departamento": "Antioquia",
+      "demanda": 23715.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5380": {
+      "municipio": "La Estrella",
+      "departamento": "Antioquia",
+      "demanda": 9976.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5440": {
+      "municipio": "Marinilla",
+      "departamento": "Antioquia",
+      "demanda": 13458.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5615": {
+      "municipio": "Rionegro",
+      "departamento": "Antioquia",
+      "demanda": 18003.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5631": {
+      "municipio": "Sabaneta",
+      "departamento": "Antioquia",
+      "demanda": 7768.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "5837": {
+      "municipio": "Turbo",
+      "departamento": "Antioquia",
+      "demanda": 5397.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "8001": {
+      "municipio": "Barranquilla",
+      "departamento": "Atlántico",
+      "demanda": 43438.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "8433": {
+      "municipio": "Malambo",
+      "departamento": "Atlántico",
+      "demanda": 8027.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "8573": {
+      "municipio": "Puerto Colombia",
+      "departamento": "Atlántico",
+      "demanda": 1974.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "8758": {
+      "municipio": "Soledad",
+      "departamento": "Atlántico",
+      "demanda": 10272.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "11001": {
+      "municipio": "Bogotá",
+      "departamento": "Cundinamarca",
+      "demanda": 180625.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "13001": {
+      "municipio": "Cartagena",
+      "departamento": "Bolívar",
+      "demanda": 3319.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "13430": {
+      "municipio": "Magangué",
+      "departamento": "Bolívar",
+      "demanda": 2149.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "15001": {
+      "municipio": "Tunja",
+      "departamento": "Boyacá",
+      "demanda": 30401.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "15238": {
+      "municipio": "Duitama",
+      "departamento": "Boyacá",
+      "demanda": 2769.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "17001": {
+      "municipio": "Manizales",
+      "departamento": "Caldas",
+      "demanda": 11471.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "17380": {
+      "municipio": "La Dorada",
+      "departamento": "Caldas",
+      "demanda": 3728.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "18001": {
+      "municipio": "Florencia",
+      "departamento": "Caquetá",
+      "demanda": 8611.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "19001": {
+      "municipio": "Popayán",
+      "departamento": "Cauca",
+      "demanda": 11192.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "19698": {
+      "municipio": "Santander De Quilichao",
+      "departamento": "Cauca",
+      "demanda": 4285.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "20001": {
+      "municipio": "Valledupar",
+      "departamento": "Cesar",
+      "demanda": 22071.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "20011": {
+      "municipio": "Aguachica",
+      "departamento": "Cesar",
+      "demanda": 4521.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "23001": {
+      "municipio": "Montería",
+      "departamento": "Córdoba",
+      "demanda": 14869.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "23162": {
+      "municipio": "Cereté",
+      "departamento": "Córdoba",
+      "demanda": 5737.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "25175": {
+      "municipio": "Chía",
+      "departamento": "Cundinamarca",
+      "demanda": 16185.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25269": {
+      "municipio": "Facatativá",
+      "departamento": "Cundinamarca",
+      "demanda": 4973.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25290": {
+      "municipio": "Fusagasugá",
+      "departamento": "Cundinamarca",
+      "demanda": 8385.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25307": {
+      "municipio": "Girardot",
+      "departamento": "Cundinamarca",
+      "demanda": 8096.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25430": {
+      "municipio": "Madrid",
+      "departamento": "Cundinamarca",
+      "demanda": 7081.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25754": {
+      "municipio": "Soacha",
+      "departamento": "Cundinamarca",
+      "demanda": 25533.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "25899": {
+      "municipio": "Zipaquirá",
+      "departamento": "Cundinamarca",
+      "demanda": 5196.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "27001": {
+      "municipio": "Quibdó",
+      "departamento": "Chocó",
+      "demanda": 10002.0,
+      "cedis": {
+        "5001": 1.0
+      }
+    },
+    "41001": {
+      "municipio": "Neiva",
+      "departamento": "Huila",
+      "demanda": 7438.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "41551": {
+      "municipio": "Pitalito",
+      "departamento": "Huila",
+      "demanda": 10732.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "44001": {
+      "municipio": "Riohacha",
+      "departamento": "La Guajira",
+      "demanda": 48244.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "47001": {
+      "municipio": "Santa Marta",
+      "departamento": "Magdalena",
+      "demanda": 6175.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "47189": {
+      "municipio": "Ciénaga",
+      "departamento": "Magdalena",
+      "demanda": 11300.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "50001": {
+      "municipio": "Villavicencio",
+      "departamento": "Meta",
+      "demanda": 12187.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "50006": {
+      "municipio": "Acacías",
+      "departamento": "Meta",
+      "demanda": 5816.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "52001": {
+      "municipio": "Pasto",
+      "departamento": "Nariño",
+      "demanda": 1519.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "52835": {
+      "municipio": "Tumaco",
+      "departamento": "Nariño",
+      "demanda": 2347.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "54001": {
+      "municipio": "Cúcuta",
+      "departamento": "Norte de Santander",
+      "demanda": 24478.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "54498": {
+      "municipio": "Ocaña",
+      "departamento": "Norte de Santander",
+      "demanda": 4260.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "63001": {
+      "municipio": "Armenia",
+      "departamento": "Quindío",
+      "demanda": 5806.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "66001": {
+      "municipio": "Pereira",
+      "departamento": "Risaralda",
+      "demanda": 7275.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "66170": {
+      "municipio": "Dosquebradas",
+      "departamento": "Risaralda",
+      "demanda": 2922.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "66400": {
+      "municipio": "La Virginia",
+      "departamento": "Risaralda",
+      "demanda": 803.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "66682": {
+      "municipio": "Santa Rosa De Cabal",
+      "departamento": "Risaralda",
+      "demanda": 2205.0,
+      "cedis": {
+        "66001": 1.0
+      }
+    },
+    "68001": {
+      "municipio": "Bucaramanga",
+      "departamento": "Santander",
+      "demanda": 7820.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "68081": {
+      "municipio": "Barrancabermeja",
+      "departamento": "Santander",
+      "demanda": 6396.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "70001": {
+      "municipio": "Sincelejo",
+      "departamento": "Sucre",
+      "demanda": 15582.0,
+      "cedis": {
+        "8001": 1.0
+      }
+    },
+    "73001": {
+      "municipio": "Ibagué",
+      "departamento": "Tolima",
+      "demanda": 14999.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "73268": {
+      "municipio": "Espinal",
+      "departamento": "Tolima",
+      "demanda": 4914.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "76001": {
+      "municipio": "Cali",
+      "departamento": "Valle del Cauca",
+      "demanda": 87889.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76109": {
+      "municipio": "Buenaventura",
+      "departamento": "Valle del Cauca",
+      "demanda": 20687.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76111": {
+      "municipio": "Buga",
+      "departamento": "Valle del Cauca",
+      "demanda": 6540.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76147": {
+      "municipio": "Cartago",
+      "departamento": "Valle del Cauca",
+      "demanda": 9199.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76364": {
+      "municipio": "Jamundí",
+      "departamento": "Valle del Cauca",
+      "demanda": 1109.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76520": {
+      "municipio": "Palmira",
+      "departamento": "Valle del Cauca",
+      "demanda": 10916.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76834": {
+      "municipio": "Tuluá",
+      "departamento": "Valle del Cauca",
+      "demanda": 9042.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "76892": {
+      "municipio": "Yumbo",
+      "departamento": "Valle del Cauca",
+      "demanda": 7962.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "81001": {
+      "municipio": "Arauca",
+      "departamento": "Arauca",
+      "demanda": 24243.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "85001": {
+      "municipio": "Yopal",
+      "departamento": "Casanare",
+      "demanda": 35123.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "86001": {
+      "municipio": "Mocoa",
+      "departamento": "Putumayo",
+      "demanda": 15146.0,
+      "cedis": {
+        "76001": 1.0
+      }
+    },
+    "91001": {
+      "municipio": "Leticia",
+      "departamento": "Amazonas",
+      "demanda": 4660.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "94001": {
+      "municipio": "Inírida",
+      "departamento": "Guainía",
+      "demanda": 1192.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "95001": {
+      "municipio": "San José Del Guaviare",
+      "departamento": "Guaviare",
+      "demanda": 14817.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "97001": {
+      "municipio": "Mitú",
+      "departamento": "Vaupés",
+      "demanda": 15435.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    },
+    "99001": {
+      "municipio": "Puerto Carreño",
+      "departamento": "Vichada",
+      "demanda": 984.0,
+      "cedis": {
+        "11001": 1.0
+      }
+    }
+  },
+  "flujos": [
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 9599.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 1831.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 2766.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 738.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 986.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 3758.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 95.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 1128.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 1912.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 156.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 2344.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 7207.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 1574.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 352.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 22441.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 670.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 557.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 2261.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 373.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 140.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 186.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 2620.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 1953.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 356.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 2093.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 1069.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 2798.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 2987.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 1624.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 235.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 309.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 7427.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 1727.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 340.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 1633.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 2132.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 143.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 945.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 89.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 1767.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 272.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 532.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 63.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 3285.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 433.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 1230.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 7103.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 3892.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 306.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 2047.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 82.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 1398.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 3442.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 2175.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 417.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 80.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 164.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 299.0
+    },
+    {
+      "categoria": "C01",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 1711.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 640.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 367.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 221.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 386.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 1604.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 485.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 394.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 735.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 383.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 190.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 1917.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 714.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 265.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 254.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 6805.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 77.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 39.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 394.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 119.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 355.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 1089.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 48.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 333.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 500.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 1469.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 1142.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 501.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 49.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 2836.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 657.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 604.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 46.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 87.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 683.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 89.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 431.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 60.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 64.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 288.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 763.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 37.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 157.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 3048.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 1654.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 124.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 222.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 209.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 26.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 202.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 811.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 594.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 1630.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 1174.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 809.0
+    },
+    {
+      "categoria": "C02",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 58.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 3755.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 223.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 148.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 502.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 868.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 520.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 564.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 1579.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 772.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 546.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 1303.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 183.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 5518.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 214.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 181.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 457.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 324.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 145.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 654.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 311.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 718.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 707.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 887.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 47.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 506.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 156.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 271.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 870.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 364.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 1368.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 1661.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 140.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 316.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 2598.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 786.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 399.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 1620.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 211.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 289.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 466.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 1021.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 874.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 116.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 339.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 62.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 157.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 559.0
+    },
+    {
+      "categoria": "C03",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 959.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 84.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 523.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 47.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 168.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 37.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 324.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 113.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 96.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 79.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 1796.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 4.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 473.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 100.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 57.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 48.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 128.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 504.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 73.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 1362.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 45.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 331.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 788.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 60.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 46.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 219.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 41.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 57.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 100.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 144.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 90.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 1219.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 112.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 413.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 1772.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 26.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C04",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 45.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 2775.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 635.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 147.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 24.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 119.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 20.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 149.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 170.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 75.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 785.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 432.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 2681.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 435.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 233.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 166.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 92.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 62.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 845.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 394.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 41.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 298.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 225.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 69.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 420.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 2147.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 453.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 796.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 78.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 946.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 39.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 96.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 40.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 373.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 405.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 75.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 1488.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 531.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 681.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 194.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 1185.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 448.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 180.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 1150.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 128.0
+    },
+    {
+      "categoria": "C05",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 262.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 56.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 84.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 92.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 96.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 127.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 58.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 29.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 144.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 55.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 905.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 38.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 113.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 56.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 61.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 51.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 73.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 28.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 64.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 27.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 43.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 26.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 80.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 46.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 48.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 67.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 55.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 55.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 192.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 55.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 124.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 61.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 84.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 10.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 53.0
+    },
+    {
+      "categoria": "C06",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 20483.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 421.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 1565.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 1761.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 660.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 194.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 404.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 2113.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 5089.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 1992.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 2068.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 1318.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 3232.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 1336.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 6333.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 1002.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 2397.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 21494.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 122.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 5929.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 303.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 1887.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 2593.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 3264.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 3047.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 840.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 316.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 1265.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 1265.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 2261.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 714.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 6944.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 5779.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 652.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 252.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 492.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 1983.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 1049.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 291.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 1907.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 876.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 1266.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 1470.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 7712.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 12644.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 1367.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 771.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 616.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 1035.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 151.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 2586.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 3583.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 7229.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 487.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 87.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 1406.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 2370.0
+    },
+    {
+      "categoria": "C07",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 121.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 14038.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 209.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 688.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 1816.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 659.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 988.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 483.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 736.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 1311.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 243.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 389.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 991.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 23483.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 87.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 3103.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 2650.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 49.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 420.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 1601.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 634.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 972.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 1309.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 2462.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 1644.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 3433.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 557.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 2121.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 1220.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 2631.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 3457.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 584.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 1655.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 4384.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 110.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 673.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 855.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 454.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 232.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 2195.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 1172.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 299.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 793.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 4723.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 2955.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 918.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 1104.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 716.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 2890.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 693.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 5196.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 1018.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 762.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 134.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 2801.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 559.0
+    },
+    {
+      "categoria": "C08",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 83.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 7032.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 47.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 170.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 2558.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 124.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 326.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 439.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 2092.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 1168.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 2129.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 1483.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 2242.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 490.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 135.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 572.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 12783.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 292.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 19.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 2532.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 477.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 455.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 477.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 1446.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 1306.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 193.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 1206.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 590.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 98.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 275.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 5233.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 66.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 1492.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 6083.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 321.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 1822.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 88.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 530.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 4050.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 342.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 127.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 608.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 110.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 1472.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 1187.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 239.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 2382.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 4019.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 1934.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 1811.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 250.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 408.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 1461.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 1217.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 2719.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 386.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 959.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 560.0
+    },
+    {
+      "categoria": "C09",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 1097.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 887.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 90.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 577.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 271.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 581.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 1622.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 242.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 79.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 316.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 2811.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 560.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 71.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 522.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 9220.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 523.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 4062.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 1372.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 69.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 2312.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 1697.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 2268.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 2606.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 1821.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 881.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 1382.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 43.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 1367.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 1311.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 76.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 2531.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 863.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 97.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 174.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 41.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 1438.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 150.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 268.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 585.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 193.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 52.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 185.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 177.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 1958.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 286.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 2946.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 2517.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 563.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 69.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 75.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 142.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 77.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 473.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 110.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 1940.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 3483.0
+    },
+    {
+      "categoria": "C10",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 131.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 723.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 98.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 242.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 161.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 295.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 248.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 134.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 26.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 57.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 119.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 242.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 309.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 87.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 1024.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 89.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 258.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 401.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 24.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 53.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 495.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 170.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 14.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 216.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 423.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 151.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 247.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 52.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 52.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 157.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 97.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 106.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 255.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 213.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 1131.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 49.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 219.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 164.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 46.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 309.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 375.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 132.0
+    },
+    {
+      "categoria": "C11",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 394.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 1025.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 153.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 51.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 142.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 168.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 127.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 350.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 184.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 206.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 121.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 329.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 173.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 1039.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 219.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 182.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 90.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 79.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 170.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 187.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 80.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 253.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 62.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 176.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 185.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 204.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 93.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 106.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 69.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 117.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 37.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 203.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 25.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 244.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 86.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 1008.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 220.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 29.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 83.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 269.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 125.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 81.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 104.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 195.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 131.0
+    },
+    {
+      "categoria": "C12",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 3975.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 222.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 667.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 750.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 76.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 48.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 554.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 627.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 190.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 1880.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 696.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 3867.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 138.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 53.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 634.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 212.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 228.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 193.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 327.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 654.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 952.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 551.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 895.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 679.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 90.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 474.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 347.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 170.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 335.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 761.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 296.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 86.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 493.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 386.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 115.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 200.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 1113.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 25.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 616.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 461.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 3138.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 149.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 33.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 100.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 573.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 1641.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 154.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 23.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 662.0
+    },
+    {
+      "categoria": "C13",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 2855.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 575.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 1342.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 1593.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 93.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 4163.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 1537.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 388.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 1533.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 1583.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 41.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 124.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 2479.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 536.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 1233.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 7463.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 111.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 1725.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 391.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 1582.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 64.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 166.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 1278.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 26.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 673.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 46.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 1437.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 95.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 2272.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 1508.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 70.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 76.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 140.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 1983.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 1363.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 115.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 376.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 272.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 1249.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 4734.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 13.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 771.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 2418.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 1141.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 3033.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 107.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 134.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 36.0
+    },
+    {
+      "categoria": "C14",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 4.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 3354.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 404.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 457.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 67.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 4.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 504.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 808.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 12.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 4285.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 1821.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 2471.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 27.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 1468.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 12768.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 177.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 603.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 428.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 10.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 2012.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 2094.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 5.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 84.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 141.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 82.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 829.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 114.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 110.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 2267.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 758.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 153.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 625.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 1262.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 772.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 389.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 43.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 2164.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 832.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 5358.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 1193.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 113.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 477.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 3418.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 38.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 1697.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 116.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 365.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 43.0
+    },
+    {
+      "categoria": "C15",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 11483.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 1273.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 722.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 2099.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 1955.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 225.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 1595.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 1822.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 3357.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 111.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 2055.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 3614.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 1831.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 2257.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 6679.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 1282.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 408.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 19292.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 584.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 571.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 3803.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 3562.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 658.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 1766.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 116.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 1614.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 2019.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 4086.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 1804.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 1926.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 3931.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 4181.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 1341.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 3596.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 2286.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 11017.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 41.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 2218.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 373.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 827.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 2728.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 505.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 879.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 363.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 54.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 469.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 1762.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 627.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 2020.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 17870.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 2568.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 2435.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 2010.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 6410.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 4890.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 7549.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 2372.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 158.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 342.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 2643.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 3611.0
+    },
+    {
+      "categoria": "C16",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 185.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 256.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 38.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 73.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 64.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 132.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 106.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 117.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 4.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 60.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 28.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 118.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 32.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 71.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 556.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 14.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 34.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 83.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 54.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 59.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 48.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 15.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25269",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 35.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 51.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 73.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 131.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 284.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 104.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 60.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 49.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 4.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 63.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 37.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 2.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "68001",
+      "posiciones": 50.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 69.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 62.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 372.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 105.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 19.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 3.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 57.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 79.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 97.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 78.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 143.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C17",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 14.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 276.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 49.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 54.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 116.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 16.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 22.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 109.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 55.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 45.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 20.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 117.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 556.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 10.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "15238",
+      "posiciones": 9.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 20.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 64.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 30.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 7.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "20011",
+      "posiciones": 38.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 56.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 54.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 40.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 59.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 25.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 61.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 47.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 29.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "52835",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 106.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 11.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "66001",
+      "zona": "66400",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 61.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "73268",
+      "posiciones": 10.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 146.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 1.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 19.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "76834",
+      "posiciones": 42.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 99.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 93.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 19.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 18.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 10.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 21.0
+    },
+    {
+      "categoria": "C18",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 6.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 3714.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 210.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 381.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 932.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5129",
+      "posiciones": 239.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5212",
+      "posiciones": 441.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 1282.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 2478.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 1733.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 1461.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 4455.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "5631",
+      "posiciones": 1467.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 1060.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "8433",
+      "posiciones": 1563.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 929.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "8758",
+      "posiciones": 512.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 10882.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "13001",
+      "posiciones": 523.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 31.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 2426.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 1391.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "17380",
+      "posiciones": 501.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "18001",
+      "posiciones": 134.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 3068.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 384.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 4034.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 557.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "23162",
+      "posiciones": 193.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 220.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25290",
+      "posiciones": 8.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25307",
+      "posiciones": 92.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 1824.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 2585.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "25899",
+      "posiciones": 384.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 798.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 2011.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "41551",
+      "posiciones": 177.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 1463.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "47001",
+      "posiciones": 2386.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "47189",
+      "posiciones": 286.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 107.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 6517.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "54498",
+      "posiciones": 219.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 98.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 173.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 456.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "66001",
+      "zona": "66682",
+      "posiciones": 848.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 172.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 353.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 558.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 7380.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 1297.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 235.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76147",
+      "posiciones": 983.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76364",
+      "posiciones": 247.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 244.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 115.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 3083.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 135.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 2291.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 967.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 17.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 2242.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 770.0
+    },
+    {
+      "categoria": "C19",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 109.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5001",
+      "posiciones": 7816.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5042",
+      "posiciones": 434.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5045",
+      "posiciones": 168.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5079",
+      "posiciones": 506.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5088",
+      "posiciones": 341.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5154",
+      "posiciones": 2435.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5266",
+      "posiciones": 3061.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5308",
+      "posiciones": 306.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5360",
+      "posiciones": 4342.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5380",
+      "posiciones": 1725.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5440",
+      "posiciones": 606.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5615",
+      "posiciones": 211.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "5837",
+      "posiciones": 633.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "8001",
+      "posiciones": 4769.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "8573",
+      "posiciones": 361.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "11001",
+      "posiciones": 16052.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "13430",
+      "posiciones": 371.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "15001",
+      "posiciones": 1030.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "66001",
+      "zona": "17001",
+      "posiciones": 1412.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "19001",
+      "posiciones": 738.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "19698",
+      "posiciones": 497.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "20001",
+      "posiciones": 1449.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "23001",
+      "posiciones": 286.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "25175",
+      "posiciones": 1540.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "25430",
+      "posiciones": 89.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "25754",
+      "posiciones": 569.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "5001",
+      "zona": "27001",
+      "posiciones": 501.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "41001",
+      "posiciones": 472.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "44001",
+      "posiciones": 1264.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "50001",
+      "posiciones": 748.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "50006",
+      "posiciones": 856.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "52001",
+      "posiciones": 73.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "54001",
+      "posiciones": 1502.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "66001",
+      "zona": "63001",
+      "posiciones": 150.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "66001",
+      "zona": "66001",
+      "posiciones": 748.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "66001",
+      "zona": "66170",
+      "posiciones": 138.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "68081",
+      "posiciones": 482.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "8001",
+      "zona": "70001",
+      "posiciones": 447.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "73001",
+      "posiciones": 176.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "76001",
+      "posiciones": 7750.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "76109",
+      "posiciones": 2164.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "76111",
+      "posiciones": 484.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "76520",
+      "posiciones": 1407.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "76892",
+      "posiciones": 1708.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "81001",
+      "posiciones": 1011.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "85001",
+      "posiciones": 402.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "76001",
+      "zona": "86001",
+      "posiciones": 409.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "91001",
+      "posiciones": 483.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "94001",
+      "posiciones": 93.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "95001",
+      "posiciones": 405.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "97001",
+      "posiciones": 897.0
+    },
+    {
+      "categoria": "C20",
+      "cedi": "11001",
+      "zona": "99001",
+      "posiciones": 46.0
+    }
+  ],
+  "viajes_fase1": [
+    {
+      "cedi": "5001",
+      "vehiculo": "V004",
+      "viajes": 10148,
+      "capacidad": 263848.0,
+      "posiciones": 263848.0,
+      "costo": 33835928805.718105
+    },
+    {
+      "cedi": "8001",
+      "vehiculo": "V002",
+      "viajes": 14118,
+      "capacidad": 197652.0,
+      "posiciones": 197678.0,
+      "costo": 67558124718.105385
+    },
+    {
+      "cedi": "8001",
+      "vehiculo": "V004",
+      "viajes": 1,
+      "capacidad": 26.0,
+      "posiciones": 197678.0,
+      "costo": 8892247.536344055
+    },
+    {
+      "cedi": "11001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 484738.0,
+      "costo": 8008040.652179861
+    },
+    {
+      "cedi": "11001",
+      "vehiculo": "V004",
+      "viajes": 18642,
+      "capacidad": 484692.0,
+      "posiciones": 484738.0,
+      "costo": 69188108259.48424
+    },
+    {
+      "cedi": "66001",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 34210.0,
+      "costo": 1834091.4435597043
+    },
+    {
+      "cedi": "66001",
+      "vehiculo": "V004",
+      "viajes": 1315,
+      "capacidad": 34190.0,
+      "posiciones": 34210.0,
+      "costo": 2227670124.140506
+    }
+  ],
+  "viajes_fase2": [
+    {
+      "cedi": "5001",
+      "zona": "5045",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 8148.0,
+      "costo": 6843730.195958861
+    },
+    {
+      "cedi": "5001",
+      "zona": "5079",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 9143.0,
+      "costo": 372492.07838354463
+    },
+    {
+      "cedi": "5001",
+      "zona": "5129",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 1747.0,
+      "costo": 653076.2351506338
+    },
+    {
+      "cedi": "5001",
+      "zona": "5154",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 10871.0,
+      "costo": 4872984.156767089
+    },
+    {
+      "cedi": "5001",
+      "zona": "5308",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 3230.0,
+      "costo": 121746.0391917723
+    },
+    {
+      "cedi": "5001",
+      "zona": "5360",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 23715.0,
+      "costo": 61546.03919177231
+    },
+    {
+      "cedi": "5001",
+      "zona": "5380",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 9976.0,
+      "costo": 332184.1567670892
+    },
+    {
+      "cedi": "5001",
+      "zona": "5440",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 13458.0,
+      "costo": 649038.1175753169
+    },
+    {
+      "cedi": "5001",
+      "zona": "5615",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 18003.0,
+      "costo": 623238.1175753169
+    },
+    {
+      "cedi": "5001",
+      "zona": "5837",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 5397.0,
+      "costo": 4428738.117575317
+    },
+    {
+      "cedi": "5001",
+      "zona": "27001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 10002.0,
+      "costo": 5122185.744608493
+    },
+    {
+      "cedi": "8001",
+      "zona": "8001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 43438.0,
+      "costo": 255390.14537622302
+    },
+    {
+      "cedi": "8001",
+      "zona": "8433",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 8027.0,
+      "costo": 306990.145376223
+    },
+    {
+      "cedi": "8001",
+      "zona": "8758",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 10272.0,
+      "costo": 110495.07268811151
+    },
+    {
+      "cedi": "8001",
+      "zona": "13001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 3319.0,
+      "costo": 2115029.3996927515
+    },
+    {
+      "cedi": "8001",
+      "zona": "13430",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 2149.0,
+      "costo": 6083786.749615939
+    },
+    {
+      "cedi": "8001",
+      "zona": "20001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 22071.0,
+      "costo": 5036180.823160125
+    },
+    {
+      "cedi": "8001",
+      "zona": "20011",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 4521.0,
+      "costo": 11295271.234740186
+    },
+    {
+      "cedi": "8001",
+      "zona": "23001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 14869.0,
+      "costo": 6240342.030889027
+    },
+    {
+      "cedi": "8001",
+      "zona": "23162",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 5737.0,
+      "costo": 7155427.5386112835
+    },
+    {
+      "cedi": "8001",
+      "zona": "44001",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 48244.0,
+      "costo": 1193125.0
+    },
+    {
+      "cedi": "8001",
+      "zona": "47001",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 6175.0,
+      "costo": 1390743.0957043848
+    },
+    {
+      "cedi": "8001",
+      "zona": "47189",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 11300.0,
+      "costo": 965043.0957043848
+    },
+    {
+      "cedi": "8001",
+      "zona": "70001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 15582.0,
+      "costo": 5004012.475617526
+    },
+    {
+      "cedi": "11001",
+      "zona": "11001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 180625.0,
+      "costo": 405640.65217986156
+    },
+    {
+      "cedi": "11001",
+      "zona": "15001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 30401.0,
+      "costo": 3083091.375151963
+    },
+    {
+      "cedi": "11001",
+      "zona": "15238",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 2769.0,
+      "costo": 840218.2750303926
+    },
+    {
+      "cedi": "11001",
+      "zona": "25175",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 16185.0,
+      "costo": 144410.1630449654
+    },
+    {
+      "cedi": "11001",
+      "zona": "25269",
+      "vehiculo": "V002",
+      "viajes": 8,
+      "capacidad": 112.0,
+      "posiciones": 4973.0,
+      "costo": 1568081.304359723
+    },
+    {
+      "cedi": "11001",
+      "zona": "25290",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 8385.0,
+      "costo": 290610.16304496536
+    },
+    {
+      "cedi": "11001",
+      "zona": "25307",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 8096.0,
+      "costo": 2979550.815224827
+    },
+    {
+      "cedi": "11001",
+      "zona": "25430",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 7081.0,
+      "costo": 148710.1630449654
+    },
+    {
+      "cedi": "11001",
+      "zona": "25754",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 25533.0,
+      "costo": 202820.32608993078
+    },
+    {
+      "cedi": "11001",
+      "zona": "25899",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 5196.0,
+      "costo": 392020.3260899308
+    },
+    {
+      "cedi": "11001",
+      "zona": "41001",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 7438.0,
+      "costo": 2608064.08046314
+    },
+    {
+      "cedi": "11001",
+      "zona": "41551",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 10732.0,
+      "costo": 8484128.16092628
+    },
+    {
+      "cedi": "11001",
+      "zona": "50001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 12187.0,
+      "costo": 2201557.0383747886
+    },
+    {
+      "cedi": "11001",
+      "zona": "50006",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 5816.0,
+      "costo": 3289446.297968486
+    },
+    {
+      "cedi": "11001",
+      "zona": "54001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 24478.0,
+      "costo": 12101186.57136491
+    },
+    {
+      "cedi": "11001",
+      "zona": "54498",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 4260.0,
+      "costo": 18133423.885637894
+    },
+    {
+      "cedi": "11001",
+      "zona": "68001",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 7820.0,
+      "costo": 7286393.997318417
+    },
+    {
+      "cedi": "11001",
+      "zona": "73001",
+      "vehiculo": "V002",
+      "viajes": 2,
+      "capacidad": 28.0,
+      "posiciones": 14999.0,
+      "costo": 1832718.7933656217
+    },
+    {
+      "cedi": "11001",
+      "zona": "81001",
+      "vehiculo": "V002",
+      "viajes": 7,
+      "capacidad": 98.0,
+      "posiciones": 24243.0,
+      "costo": 21684027.92521275
+    },
+    {
+      "cedi": "11001",
+      "zona": "85001",
+      "vehiculo": "V002",
+      "viajes": 13,
+      "capacidad": 182.0,
+      "posiciones": 35123.0,
+      "costo": 19844360.374718063
+    },
+    {
+      "cedi": "11001",
+      "zona": "91001",
+      "vehiculo": "V002",
+      "viajes": 331,
+      "capacidad": 4634.0,
+      "posiciones": 4660.0,
+      "costo": 1555720579.865061
+    },
+    {
+      "cedi": "11001",
+      "zona": "94001",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 1192.0,
+      "costo": 18121909.650182355
+    },
+    {
+      "cedi": "11001",
+      "zona": "95001",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 14817.0,
+      "costo": 10655335.557562182
+    },
+    {
+      "cedi": "11001",
+      "zona": "97001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 15435.0,
+      "costo": 12233446.297968486
+    },
+    {
+      "cedi": "11001",
+      "zona": "99001",
+      "vehiculo": "V002",
+      "viajes": 61,
+      "capacidad": 854.0,
+      "posiciones": 984.0,
+      "costo": 256528744.83521554
+    },
+    {
+      "cedi": "66001",
+      "zona": "17001",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 11471.0,
+      "costo": 749140.1264175061
+    },
+    {
+      "cedi": "66001",
+      "zona": "17380",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 3728.0,
+      "costo": 2684140.1264175065
+    },
+    {
+      "cedi": "66001",
+      "zona": "63001",
+      "vehiculo": "V002",
+      "viajes": 7,
+      "capacidad": 98.0,
+      "posiciones": 5806.0,
+      "costo": 1452510.712652305
+    },
+    {
+      "cedi": "66001",
+      "zona": "66170",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 2922.0,
+      "costo": 39845.72177985216
+    },
+    {
+      "cedi": "66001",
+      "zona": "66400",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 803.0,
+      "costo": 606582.8871194087
+    },
+    {
+      "cedi": "76001",
+      "zona": "18001",
+      "vehiculo": "V002",
+      "viajes": 6,
+      "capacidad": 84.0,
+      "posiciones": 8611.0,
+      "costo": 11559373.04891349
+    },
+    {
+      "cedi": "76001",
+      "zona": "19001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 11192.0,
+      "costo": 3082826.8326433925
+    },
+    {
+      "cedi": "76001",
+      "zona": "19698",
+      "vehiculo": "V002",
+      "viajes": 9,
+      "capacidad": 126.0,
+      "posiciones": 4285.0,
+      "costo": 2336988.2987581063
+    },
+    {
+      "cedi": "76001",
+      "zona": "52001",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 1519.0,
+      "costo": 8238751.392586165
+    },
+    {
+      "cedi": "76001",
+      "zona": "52835",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 2347.0,
+      "costo": 14043751.392586164
+    },
+    {
+      "cedi": "76001",
+      "zona": "76001",
+      "vehiculo": "V002",
+      "viajes": 3,
+      "capacidad": 42.0,
+      "posiciones": 87889.0,
+      "costo": 295500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76109",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 20687.0,
+      "costo": 2630000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76111",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 6540.0,
+      "costo": 335000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76147",
+      "vehiculo": "V002",
+      "viajes": 4,
+      "capacidad": 56.0,
+      "posiciones": 9199.0,
+      "costo": 3128800.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76364",
+      "vehiculo": "V002",
+      "viajes": 5,
+      "capacidad": 70.0,
+      "posiciones": 1109.0,
+      "costo": 578500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76520",
+      "vehiculo": "V002",
+      "viajes": 9,
+      "capacidad": 126.0,
+      "posiciones": 10916.0,
+      "costo": 1660500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76892",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 7962.0,
+      "costo": 102800.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "86001",
+      "vehiculo": "V002",
+      "viajes": 1,
+      "capacidad": 14.0,
+      "posiciones": 15146.0,
+      "costo": 1819062.1748189148
+    },
+    {
+      "cedi": "5001",
+      "zona": "5360",
+      "vehiculo": "V003",
+      "viajes": 1,
+      "capacidad": 16.0,
+      "posiciones": 23715.0,
+      "costo": 78596.0391917723
+    },
+    {
+      "cedi": "5001",
+      "zona": "5001",
+      "vehiculo": "V004",
+      "viajes": 3738,
+      "capacidad": 97188.0,
+      "posiciones": 97188.0,
+      "costo": 501811694.4988449
+    },
+    {
+      "cedi": "5001",
+      "zona": "5042",
+      "vehiculo": "V004",
+      "viajes": 169,
+      "capacidad": 4394.0,
+      "posiciones": 4394.0,
+      "costo": 78119580.62340951
+    },
+    {
+      "cedi": "5001",
+      "zona": "5045",
+      "vehiculo": "V004",
+      "viajes": 311,
+      "capacidad": 8086.0,
+      "posiciones": 8148.0,
+      "costo": 788150518.1886412
+    },
+    {
+      "cedi": "5001",
+      "zona": "5079",
+      "vehiculo": "V004",
+      "viajes": 351,
+      "capacidad": 9126.0,
+      "posiciones": 9143.0,
+      "costo": 117320359.75631207
+    },
+    {
+      "cedi": "5001",
+      "zona": "5088",
+      "vehiculo": "V004",
+      "viajes": 568,
+      "capacidad": 14768.0,
+      "posiciones": 14764.0,
+      "costo": 53531750.26092667
+    },
+    {
+      "cedi": "5001",
+      "zona": "5129",
+      "vehiculo": "V004",
+      "viajes": 64,
+      "capacidad": 1664.0,
+      "posiciones": 1747.0,
+      "costo": 12175746.508273428
+    },
+    {
+      "cedi": "5001",
+      "zona": "5154",
+      "vehiculo": "V004",
+      "viajes": 416,
+      "capacidad": 10816.0,
+      "posiciones": 10871.0,
+      "costo": 937766352.3037772
+    },
+    {
+      "cedi": "5001",
+      "zona": "5212",
+      "vehiculo": "V004",
+      "viajes": 238,
+      "capacidad": 6188.0,
+      "posiciones": 6184.0,
+      "costo": 35758557.327641815
+    },
+    {
+      "cedi": "5001",
+      "zona": "5266",
+      "vehiculo": "V004",
+      "viajes": 764,
+      "capacidad": 19864.0,
+      "posiciones": 19860.0,
+      "costo": 72003973.94251403
+    },
+    {
+      "cedi": "5001",
+      "zona": "5308",
+      "vehiculo": "V004",
+      "viajes": 124,
+      "capacidad": 3224.0,
+      "posiciones": 3230.0,
+      "costo": 26566508.859779768
+    },
+    {
+      "cedi": "5001",
+      "zona": "5360",
+      "vehiculo": "V004",
+      "viajes": 911,
+      "capacidad": 23686.0,
+      "posiciones": 23715.0,
+      "costo": 93146141.70370457
+    },
+    {
+      "cedi": "5001",
+      "zona": "5380",
+      "vehiculo": "V004",
+      "viajes": 382,
+      "capacidad": 9932.0,
+      "posiciones": 9976.0,
+      "costo": 54337986.97125702
+    },
+    {
+      "cedi": "5001",
+      "zona": "5440",
+      "vehiculo": "V004",
+      "viajes": 516,
+      "capacidad": 13416.0,
+      "posiciones": 13458.0,
+      "costo": 201366956.2229545
+    },
+    {
+      "cedi": "5001",
+      "zona": "5615",
+      "vehiculo": "V004",
+      "viajes": 691,
+      "capacidad": 17966.0,
+      "posiciones": 18003.0,
+      "costo": 258604013.08151466
+    },
+    {
+      "cedi": "5001",
+      "zona": "5631",
+      "vehiculo": "V004",
+      "viajes": 299,
+      "capacidad": 7774.0,
+      "posiciones": 7768.0,
+      "costo": 37747565.71833992
+    },
+    {
+      "cedi": "5001",
+      "zona": "5837",
+      "vehiculo": "V004",
+      "viajes": 206,
+      "capacidad": 5356.0,
+      "posiciones": 5397.0,
+      "costo": 563254684.073505
+    },
+    {
+      "cedi": "5001",
+      "zona": "27001",
+      "vehiculo": "V004",
+      "viajes": 382,
+      "capacidad": 9932.0,
+      "posiciones": 10002.0,
+      "costo": 723483990.8880888
+    },
+    {
+      "cedi": "8001",
+      "zona": "8001",
+      "vehiculo": "V004",
+      "viajes": 1669,
+      "capacidad": 43394.0,
+      "posiciones": 43438.0,
+      "costo": 180665138.15822905
+    },
+    {
+      "cedi": "8001",
+      "zona": "8433",
+      "vehiculo": "V004",
+      "viajes": 307,
+      "capacidad": 7982.0,
+      "posiciones": 8027.0,
+      "costo": 40599993.65762512
+    },
+    {
+      "cedi": "8001",
+      "zona": "8573",
+      "vehiculo": "V004",
+      "viajes": 76,
+      "capacidad": 1976.0,
+      "posiciones": 1974.0,
+      "costo": 13090812.762148237
+    },
+    {
+      "cedi": "8001",
+      "zona": "8758",
+      "vehiculo": "V004",
+      "viajes": 394,
+      "capacidad": 10244.0,
+      "posiciones": 10272.0,
+      "costo": 36345529.319557965
+    },
+    {
+      "cedi": "8001",
+      "zona": "13001",
+      "vehiculo": "V004",
+      "viajes": 126,
+      "capacidad": 3276.0,
+      "posiciones": 3319.0,
+      "costo": 122567426.09032167
+    },
+    {
+      "cedi": "8001",
+      "zona": "13430",
+      "vehiculo": "V004",
+      "viajes": 80,
+      "capacidad": 2080.0,
+      "posiciones": 2149.0,
+      "costo": 180220587.99385503
+    },
+    {
+      "cedi": "8001",
+      "zona": "20001",
+      "vehiculo": "V004",
+      "viajes": 847,
+      "capacidad": 22022.0,
+      "posiciones": 22071.0,
+      "costo": 1975242289.3041565
+    },
+    {
+      "cedi": "8001",
+      "zona": "20011",
+      "vehiculo": "V004",
+      "viajes": 171,
+      "capacidad": 4446.0,
+      "posiciones": 4521.0,
+      "costo": 597139730.1900953
+    },
+    {
+      "cedi": "8001",
+      "zona": "23001",
+      "vehiculo": "V004",
+      "viajes": 570,
+      "capacidad": 14820.0,
+      "posiciones": 14869.0,
+      "costo": 1648488739.4016864
+    },
+    {
+      "cedi": "8001",
+      "zona": "23162",
+      "vehiculo": "V004",
+      "viajes": 218,
+      "capacidad": 5668.0,
+      "posiciones": 5737.0,
+      "costo": 578154640.683452
+    },
+    {
+      "cedi": "8001",
+      "zona": "44001",
+      "vehiculo": "V004",
+      "viajes": 1855,
+      "capacidad": 48230.0,
+      "posiciones": 48244.0,
+      "costo": 4100709375.0
+    },
+    {
+      "cedi": "8001",
+      "zona": "47001",
+      "vehiculo": "V004",
+      "viajes": 236,
+      "capacidad": 6136.0,
+      "posiciones": 6175.0,
+      "costo": 201091123.52874494
+    },
+    {
+      "cedi": "8001",
+      "zona": "47189",
+      "vehiculo": "V004",
+      "viajes": 433,
+      "capacidad": 11258.0,
+      "posiciones": 11300.0,
+      "costo": 254639086.81333286
+    },
+    {
+      "cedi": "8001",
+      "zona": "70001",
+      "vehiculo": "V004",
+      "viajes": 597,
+      "capacidad": 15522.0,
+      "posiciones": 15582.0,
+      "costo": 1105526089.5887327
+    },
+    {
+      "cedi": "11001",
+      "zona": "11001",
+      "vehiculo": "V004",
+      "viajes": 6945,
+      "capacidad": 180570.0,
+      "posiciones": 180625.0,
+      "costo": 1218223582.3472846
+    },
+    {
+      "cedi": "11001",
+      "zona": "15001",
+      "vehiculo": "V004",
+      "viajes": 1167,
+      "capacidad": 30342.0,
+      "posiciones": 30401.0,
+      "costo": 1324099526.9604683
+    },
+    {
+      "cedi": "11001",
+      "zona": "15238",
+      "vehiculo": "V004",
+      "viajes": 106,
+      "capacidad": 2756.0,
+      "posiciones": 2769.0,
+      "costo": 164365537.15322164
+    },
+    {
+      "cedi": "11001",
+      "zona": "25175",
+      "vehiculo": "V004",
+      "viajes": 622,
+      "capacidad": 16172.0,
+      "posiciones": 16185.0,
+      "costo": 158865121.41396847
+    },
+    {
+      "cedi": "11001",
+      "zona": "25269",
+      "vehiculo": "V004",
+      "viajes": 187,
+      "capacidad": 4862.0,
+      "posiciones": 4973.0,
+      "costo": 65713700.48940852
+    },
+    {
+      "cedi": "11001",
+      "zona": "25290",
+      "vehiculo": "V004",
+      "viajes": 322,
+      "capacidad": 8372.0,
+      "posiciones": 8385.0,
+      "costo": 169826072.50047883
+    },
+    {
+      "cedi": "11001",
+      "zona": "25307",
+      "vehiculo": "V004",
+      "viajes": 309,
+      "capacidad": 8034.0,
+      "posiciones": 8096.0,
+      "costo": 338481740.3808943
+    },
+    {
+      "cedi": "11001",
+      "zona": "25430",
+      "vehiculo": "V004",
+      "viajes": 272,
+      "capacidad": 7072.0,
+      "posiciones": 7081.0,
+      "costo": 71647564.34823057
+    },
+    {
+      "cedi": "11001",
+      "zona": "25754",
+      "vehiculo": "V004",
+      "viajes": 981,
+      "capacidad": 25506.0,
+      "posiciones": 25533.0,
+      "costo": 172077369.94711104
+    },
+    {
+      "cedi": "11001",
+      "zona": "25899",
+      "vehiculo": "V004",
+      "viajes": 199,
+      "capacidad": 5174.0,
+      "posiciones": 5196.0,
+      "costo": 69930622.44594811
+    },
+    {
+      "cedi": "11001",
+      "zona": "41001",
+      "vehiculo": "V004",
+      "viajes": 285,
+      "capacidad": 7410.0,
+      "posiciones": 7438.0,
+      "costo": 687999131.4659975
+    },
+    {
+      "cedi": "11001",
+      "zona": "41551",
+      "vehiculo": "V004",
+      "viajes": 411,
+      "capacidad": 10686.0,
+      "posiciones": 10732.0,
+      "costo": 1616887168.5351753
+    },
+    {
+      "cedi": "11001",
+      "zona": "50001",
+      "vehiculo": "V004",
+      "viajes": 467,
+      "capacidad": 12142.0,
+      "posiciones": 12187.0,
+      "costo": 473019284.23025656
+    },
+    {
+      "cedi": "11001",
+      "zona": "50006",
+      "vehiculo": "V004",
+      "viajes": 221,
+      "capacidad": 5746.0,
+      "posiciones": 5816.0,
+      "costo": 268048526.37020704
+    },
+    {
+      "cedi": "11001",
+      "zona": "54001",
+      "vehiculo": "V004",
+      "viajes": 939,
+      "capacidad": 24414.0,
+      "posiciones": 24478.0,
+      "costo": 4218210838.10233
+    },
+    {
+      "cedi": "11001",
+      "zona": "54498",
+      "vehiculo": "V004",
+      "viajes": 161,
+      "capacidad": 4186.0,
+      "posiciones": 4260.0,
+      "costo": 903570207.5979501
+    },
+    {
+      "cedi": "11001",
+      "zona": "68001",
+      "vehiculo": "V004",
+      "viajes": 299,
+      "capacidad": 7774.0,
+      "posiciones": 7820.0,
+      "costo": 1009303951.2995516
+    },
+    {
+      "cedi": "11001",
+      "zona": "68081",
+      "vehiculo": "V004",
+      "viajes": 246,
+      "capacidad": 6396.0,
+      "posiciones": 6396.0,
+      "costo": 850077230.8350827
+    },
+    {
+      "cedi": "11001",
+      "zona": "73001",
+      "vehiculo": "V004",
+      "viajes": 576,
+      "capacidad": 14976.0,
+      "posiciones": 14999.0,
+      "costo": 975375012.489299
+    },
+    {
+      "cedi": "11001",
+      "zona": "73268",
+      "vehiculo": "V004",
+      "viajes": 189,
+      "capacidad": 4914.0,
+      "posiciones": 4914.0,
+      "costo": 229324925.97305128
+    },
+    {
+      "cedi": "11001",
+      "zona": "81001",
+      "vehiculo": "V004",
+      "viajes": 929,
+      "capacidad": 24154.0,
+      "posiciones": 24243.0,
+      "costo": 5342324377.503234
+    },
+    {
+      "cedi": "11001",
+      "zona": "85001",
+      "vehiculo": "V004",
+      "viajes": 1344,
+      "capacidad": 34944.0,
+      "posiciones": 35123.0,
+      "costo": 3802027164.893929
+    },
+    {
+      "cedi": "11001",
+      "zona": "91001",
+      "vehiculo": "V004",
+      "viajes": 1,
+      "capacidad": 26.0,
+      "posiciones": 4660.0,
+      "costo": 8733062.174818914
+    },
+    {
+      "cedi": "11001",
+      "zona": "94001",
+      "vehiculo": "V004",
+      "viajes": 43,
+      "capacidad": 1118.0,
+      "posiciones": 1192.0,
+      "costo": 241084585.82630688
+    },
+    {
+      "cedi": "11001",
+      "zona": "95001",
+      "vehiculo": "V004",
+      "viajes": 567,
+      "capacidad": 14742.0,
+      "posiciones": 14817.0,
+      "costo": 1867068210.1896265
+    },
+    {
+      "cedi": "11001",
+      "zona": "97001",
+      "vehiculo": "V004",
+      "viajes": 591,
+      "capacidad": 15366.0,
+      "posiciones": 15435.0,
+      "costo": 2683665552.419875
+    },
+    {
+      "cedi": "11001",
+      "zona": "99001",
+      "vehiculo": "V004",
+      "viajes": 5,
+      "capacidad": 130.0,
+      "posiciones": 984.0,
+      "costo": 39064446.297968484
+    },
+    {
+      "cedi": "66001",
+      "zona": "17001",
+      "vehiculo": "V004",
+      "viajes": 440,
+      "capacidad": 11440.0,
+      "posiciones": 11471.0,
+      "costo": 199413885.20790088
+    },
+    {
+      "cedi": "66001",
+      "zona": "17380",
+      "vehiculo": "V004",
+      "viajes": 142,
+      "capacidad": 3692.0,
+      "posiciones": 3728.0,
+      "costo": 234756299.3170953
+    },
+    {
+      "cedi": "66001",
+      "zona": "63001",
+      "vehiculo": "V004",
+      "viajes": 220,
+      "capacidad": 5720.0,
+      "posiciones": 5806.0,
+      "costo": 82280336.68335815
+    },
+    {
+      "cedi": "66001",
+      "zona": "66001",
+      "vehiculo": "V004",
+      "viajes": 280,
+      "capacidad": 7280.0,
+      "posiciones": 7275.0,
+      "costo": 26332802.098358605
+    },
+    {
+      "cedi": "66001",
+      "zona": "66170",
+      "vehiculo": "V004",
+      "viajes": 112,
+      "capacidad": 2912.0,
+      "posiciones": 2922.0,
+      "costo": 6949120.839343442
+    },
+    {
+      "cedi": "66001",
+      "zona": "66400",
+      "vehiculo": "V004",
+      "viajes": 29,
+      "capacidad": 754.0,
+      "posiciones": 803.0,
+      "costo": 7831325.931615713
+    },
+    {
+      "cedi": "66001",
+      "zona": "66682",
+      "vehiculo": "V004",
+      "viajes": 85,
+      "capacidad": 2210.0,
+      "posiciones": 2205.0,
+      "costo": 12073886.351287436
+    },
+    {
+      "cedi": "76001",
+      "zona": "18001",
+      "vehiculo": "V004",
+      "viajes": 328,
+      "capacidad": 8528.0,
+      "posiciones": 8611.0,
+      "costo": 1171964393.340604
+    },
+    {
+      "cedi": "76001",
+      "zona": "19001",
+      "vehiculo": "V004",
+      "viajes": 428,
+      "capacidad": 11128.0,
+      "posiciones": 11192.0,
+      "costo": 485593976.8742744
+    },
+    {
+      "cedi": "76001",
+      "zona": "19698",
+      "vehiculo": "V004",
+      "viajes": 160,
+      "capacidad": 4160.0,
+      "posiciones": 4285.0,
+      "costo": 75290458.64458856
+    },
+    {
+      "cedi": "76001",
+      "zona": "52001",
+      "vehiculo": "V004",
+      "viajes": 56,
+      "capacidad": 1456.0,
+      "posiciones": 1519.0,
+      "costo": 171010015.59696504
+    },
+    {
+      "cedi": "76001",
+      "zona": "52835",
+      "vehiculo": "V004",
+      "viajes": 88,
+      "capacidad": 2288.0,
+      "posiciones": 2347.0,
+      "costo": 458810024.50951654
+    },
+    {
+      "cedi": "76001",
+      "zona": "76001",
+      "vehiculo": "V004",
+      "viajes": 3379,
+      "capacidad": 87854.0,
+      "posiciones": 87889.0,
+      "costo": 582877500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76109",
+      "vehiculo": "V004",
+      "viajes": 794,
+      "capacidad": 20644.0,
+      "posiciones": 20687.0,
+      "costo": 962725000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76111",
+      "vehiculo": "V004",
+      "viajes": 251,
+      "capacidad": 6526.0,
+      "posiciones": 6540.0,
+      "costo": 153737500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76147",
+      "vehiculo": "V004",
+      "viajes": 352,
+      "capacidad": 9152.0,
+      "posiciones": 9199.0,
+      "costo": 508464000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76364",
+      "vehiculo": "V004",
+      "viajes": 40,
+      "capacidad": 1040.0,
+      "posiciones": 1109.0,
+      "costo": 8180000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76520",
+      "vehiculo": "V004",
+      "viajes": 415,
+      "capacidad": 10790.0,
+      "posiciones": 10916.0,
+      "costo": 137987500.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76834",
+      "vehiculo": "V004",
+      "viajes": 348,
+      "capacidad": 9048.0,
+      "posiciones": 9042.0,
+      "costo": 266046000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "76892",
+      "vehiculo": "V004",
+      "viajes": 306,
+      "capacidad": 7956.0,
+      "posiciones": 7962.0,
+      "costo": 55233000.0
+    },
+    {
+      "cedi": "76001",
+      "zona": "86001",
+      "vehiculo": "V004",
+      "viajes": 582,
+      "capacidad": 15132.0,
+      "posiciones": 15146.0,
+      "costo": 1963122185.7446084
+    }
+  ],
+  "posiciones_planta_cedi_acoplado": 196444.0,
+  "zonas_divididas": [],
+  "referencia_tabla_7_cali_xs": {
+    "tamanos": {
+      "Pereira": "XS",
+      "Medellín": "L",
+      "Cali": "XS",
+      "Bogotá": "XL",
+      "Barranquilla": "XL"
+    },
+    "costos": {
+      "T_I": 173671361788.72626,
+      "T_II": 54194928194.207565,
+      "A_f": 17849185308.3349,
+      "A_v": 33281188705.75945
+    },
+    "costo_total": 278996663997.0282
+  }
+}

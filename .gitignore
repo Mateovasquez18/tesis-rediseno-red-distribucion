@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Registros del solver CBC (se regeneran en cada corrida)
+resultados/*.log
+*.log
+
+# Archivos temporales de Excel y macOS
+~$*
+.DS_Store
+
+# Compilación de LaTeX
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+svg-inkscape/

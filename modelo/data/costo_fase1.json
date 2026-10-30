@@ -1,0 +1,105 @@
+{
+  "descripcion": "cI[v][j]: costo (COP) de un viaje del vehiculo v desde la planta hasta el punto candidato j (codigo DANE), para j distinto del CEDI acoplado a la planta. El CEDI acoplado (j0) se abastece en camion sencillo con costo 'phi' por posicion de estiba",
+  "fuente": {
+    "archivo": "Datos_Demanda_Normalizados.xlsx",
+    "hoja": "KM_Zonas",
+    "planta": "Cali",
+    "columnas": {
+      "origen": "B",
+      "destino": "D",
+      "km": "E",
+      "costo_viaje": {
+        "V001": "G",
+        "V002": "H",
+        "V003": "I",
+        "V004": "J"
+      }
+    },
+    "phi": {
+      "hoja": "Ref_Veh",
+      "vehiculo": "V002",
+      "columna": "G"
+    }
+  },
+  "conjuntos": {
+    "V": [
+      "V001",
+      "V002",
+      "V003",
+      "V004"
+    ],
+    "W": [
+      "5001",
+      "8001",
+      "11001",
+      "66001",
+      "76001"
+    ],
+    "W_planta": [
+      "5001",
+      "8001",
+      "11001",
+      "66001"
+    ]
+  },
+  "candidatos": {
+    "5001": {
+      "ciudad": "Medellín",
+      "departamento": "Antioquia"
+    },
+    "8001": {
+      "ciudad": "Barranquilla",
+      "departamento": "Atlántico"
+    },
+    "11001": {
+      "ciudad": "Bogotá",
+      "departamento": "Cundinamarca"
+    },
+    "66001": {
+      "ciudad": "Pereira",
+      "departamento": "Risaralda"
+    },
+    "76001": {
+      "ciudad": "Cali",
+      "departamento": "Valle del Cauca",
+      "tamano_fijo": "XL"
+    }
+  },
+  "cedi_planta": {
+    "codigo": "76001",
+    "vehiculo": "V002",
+    "phi": 4300.0
+  },
+  "km": {
+    "5001": 415.0,
+    "8001": 1110.0,
+    "11001": 462.0,
+    "66001": 210.0
+  },
+  "cI": {
+    "V001": {
+      "5001": 2462746.039191772,
+      "8001": 6561247.536344056,
+      "11001": 2741210.1630449654,
+      "66001": 1253045.7217798522
+    },
+    "V002": {
+      "5001": 1798746.0391917722,
+      "8001": 4785247.536344056,
+      "11001": 2002010.1630449654,
+      "66001": 917045.7217798522
+    },
+    "V003": {
+      "5001": 2441996.039191772,
+      "8001": 6505747.536344056,
+      "11001": 2718110.1630449654,
+      "66001": 1242545.7217798522
+    },
+    "V004": {
+      "5001": 3334246.039191772,
+      "8001": 8892247.536344055,
+      "11001": 3711410.1630449654,
+      "66001": 1694045.7217798522
+    }
+  }
+}

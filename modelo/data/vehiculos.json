@@ -1,0 +1,49 @@
+{
+  "descripcion": "Tipos de vehiculo v: capacidad q[v] en posiciones de estiba (carga no apilable) y costo medio por km (COP/km)",
+  "fuente": {
+    "archivo": "Datos_Demanda_Normalizados.xlsx",
+    "hoja": "Ref_Veh",
+    "columnas": {
+      "codigo": "A",
+      "nombre": "B",
+      "costo_km": "G",
+      "capacidad": "I"
+    }
+  },
+  "conjuntos": {
+    "V": [
+      "V001",
+      "V002",
+      "V003",
+      "V004"
+    ]
+  },
+  "vehiculos": {
+    "V001": {
+      "nombre": "Camioneta / furgón",
+      "capacidad": 7.5,
+      "costo_km": 5900.0
+    },
+    "V002": {
+      "nombre": "Camión sencillo",
+      "capacidad": 14.0,
+      "costo_km": 4300.0
+    },
+    "V003": {
+      "nombre": "Doble troque",
+      "capacidad": 16.0,
+      "costo_km": 5850.0
+    },
+    "V004": {
+      "nombre": "Tractocamión",
+      "capacidad": 26.0,
+      "costo_km": 8000.0
+    }
+  },
+  "q": {
+    "V001": 7.5,
+    "V002": 14.0,
+    "V003": 16.0,
+    "V004": 26.0
+  }
+}

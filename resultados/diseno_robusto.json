@@ -1,0 +1,310 @@
+{
+  "descripcion": "Diseño robusto: una sola configuración de CEDI factible en todos los escenarios de demanda (lambda de 0,70 a 1,25), con flujos y viajes que se adaptan a cada escenario.",
+  "escenarios_lambda": [
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1,
+    1.15,
+    1.2,
+    1.25
+  ],
+  "criterios": {
+    "esperado": {
+      "diseno": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "estado": "Optimal",
+      "segundos": 74.51690816879272,
+      "escenarios": [
+        {
+          "lambda": 0.7,
+          "estado": "Optimal",
+          "Z": 173586223360.65335,
+          "sobrecosto_pct": 0.02865457812400231
+        },
+        {
+          "lambda": 0.75,
+          "estado": "Optimal",
+          "Z": 184848085082.7531,
+          "sobrecosto_pct": 0.024761752156883463
+        },
+        {
+          "lambda": 0.8,
+          "estado": "Optimal",
+          "Z": 196157975169.37085,
+          "sobrecosto_pct": 0.020123133802023806
+        },
+        {
+          "lambda": 0.85,
+          "estado": "Optimal",
+          "Z": 207491283968.86774,
+          "sobrecosto_pct": 0.01829257444073347
+        },
+        {
+          "lambda": 0.9,
+          "estado": "Optimal",
+          "Z": 218826462753.44058,
+          "sobrecosto_pct": 0.016599008018207514
+        },
+        {
+          "lambda": 0.95,
+          "estado": "Optimal",
+          "Z": 230217175148.77133,
+          "sobrecosto_pct": 0.0047009818288054565
+        },
+        {
+          "lambda": 1.0,
+          "estado": "Optimal",
+          "Z": 241655407678.57858,
+          "sobrecosto_pct": 0.001249450700021769
+        },
+        {
+          "lambda": 1.05,
+          "estado": "Optimal",
+          "Z": 253196252921.4104,
+          "sobrecosto_pct": 7.713980199187086e-05
+        },
+        {
+          "lambda": 1.1,
+          "estado": "Optimal",
+          "Z": 264751585743.0908,
+          "sobrecosto_pct": -6.979175582345451e-11
+        },
+        {
+          "lambda": 1.15,
+          "estado": "Optimal",
+          "Z": 276387321164.82245,
+          "sobrecosto_pct": 0.0
+        },
+        {
+          "lambda": 1.2,
+          "estado": "Optimal",
+          "Z": 288056975783.9709,
+          "sobrecosto_pct": -1.2275301849807552e-10
+        },
+        {
+          "lambda": 1.25,
+          "estado": "Optimal",
+          "Z": 299773852040.67505,
+          "sobrecosto_pct": -9.64216230730226e-10
+        }
+      ],
+      "factible_en_todos": true,
+      "costo_esperado": 236245716734.70044,
+      "arrepentimiento_max_pct": 0.02865457812400231
+    },
+    "arrepentimiento": {
+      "diseno": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "estado": "Optimal",
+      "segundos": 549.3054358959198,
+      "escenarios": [
+        {
+          "lambda": 0.7,
+          "estado": "Optimal",
+          "Z": 173586223360.65335,
+          "sobrecosto_pct": 0.02865457812400231
+        },
+        {
+          "lambda": 0.75,
+          "estado": "Optimal",
+          "Z": 184848085082.7531,
+          "sobrecosto_pct": 0.024761752156883463
+        },
+        {
+          "lambda": 0.8,
+          "estado": "Optimal",
+          "Z": 196157975169.37085,
+          "sobrecosto_pct": 0.020123133802023806
+        },
+        {
+          "lambda": 0.85,
+          "estado": "Optimal",
+          "Z": 207491283968.86774,
+          "sobrecosto_pct": 0.01829257444073347
+        },
+        {
+          "lambda": 0.9,
+          "estado": "Optimal",
+          "Z": 218826462753.44058,
+          "sobrecosto_pct": 0.016599008018207514
+        },
+        {
+          "lambda": 0.95,
+          "estado": "Optimal",
+          "Z": 230217175148.77133,
+          "sobrecosto_pct": 0.0047009818288054565
+        },
+        {
+          "lambda": 1.0,
+          "estado": "Optimal",
+          "Z": 241655407678.57858,
+          "sobrecosto_pct": 0.001249450700021769
+        },
+        {
+          "lambda": 1.05,
+          "estado": "Optimal",
+          "Z": 253196252921.4104,
+          "sobrecosto_pct": 7.713980199187086e-05
+        },
+        {
+          "lambda": 1.1,
+          "estado": "Optimal",
+          "Z": 264751585743.0908,
+          "sobrecosto_pct": -6.979175582345451e-11
+        },
+        {
+          "lambda": 1.15,
+          "estado": "Optimal",
+          "Z": 276387321164.82245,
+          "sobrecosto_pct": 0.0
+        },
+        {
+          "lambda": 1.2,
+          "estado": "Optimal",
+          "Z": 288056975783.9709,
+          "sobrecosto_pct": -1.2275301849807552e-10
+        },
+        {
+          "lambda": 1.25,
+          "estado": "Optimal",
+          "Z": 299773852040.67505,
+          "sobrecosto_pct": -9.64216230730226e-10
+        }
+      ],
+      "factible_en_todos": true,
+      "costo_esperado": 236245716734.70044,
+      "arrepentimiento_max_pct": 0.02865457812400231
+    }
+  },
+  "diseno_propuesto_base": {
+    "diseno": {
+      "Medellín": null,
+      "Barranquilla": null,
+      "Bogotá": "M",
+      "Pereira": "XL",
+      "Cali": "XL"
+    },
+    "escenarios": [
+      {
+        "lambda": 0.7,
+        "estado": "Optimal",
+        "Z": 172670163952.59384,
+        "sobrecosto_pct": 0.023226101798573075
+      },
+      {
+        "lambda": 0.75,
+        "estado": "Optimal",
+        "Z": 183983821319.7482,
+        "sobrecosto_pct": 0.01997044232153342
+      },
+      {
+        "lambda": 0.8,
+        "estado": "Optimal",
+        "Z": 195330454678.5744,
+        "sobrecosto_pct": 0.015819598370299618
+      },
+      {
+        "lambda": 0.85,
+        "estado": "Optimal",
+        "Z": 206725057663.83493,
+        "sobrecosto_pct": 0.014532211393998766
+      },
+      {
+        "lambda": 0.9,
+        "estado": "Optimal",
+        "Z": 218214609025.1761,
+        "sobrecosto_pct": 0.01375652779264737
+      },
+      {
+        "lambda": 0.95,
+        "estado": "Optimal",
+        "Z": 229755284425.3426,
+        "sobrecosto_pct": 0.0026852240425908236
+      },
+      {
+        "lambda": 1.0,
+        "estado": "Optimal",
+        "Z": 241353847951.01453,
+        "sobrecosto_pct": 2.7772133877474827e-11
+      },
+      {
+        "lambda": 1.05,
+        "estado": "Optimal",
+        "Z": 253176723141.8201,
+        "sobrecosto_pct": 8.795620260034001e-10
+      },
+      {
+        "lambda": 1.1,
+        "estado": "Optimal",
+        "Z": 265388490133.3374,
+        "sobrecosto_pct": 0.0024056678260757315
+      },
+      {
+        "lambda": 1.15,
+        "estado": "Optimal",
+        "Z": 277612461018.13696,
+        "sobrecosto_pct": 0.004432691948933168
+      },
+      {
+        "lambda": 1.2,
+        "estado": "Infeasible",
+        "Z": null,
+        "sobrecosto_pct": null
+      },
+      {
+        "lambda": 1.25,
+        "estado": "Infeasible",
+        "Z": null,
+        "sobrecosto_pct": null
+      }
+    ],
+    "factible_en_todos": false,
+    "costo_esperado": null,
+    "arrepentimiento_max_pct": null
+  },
+  "diseno_robusto_elegido": {
+    "Medellín": "XL",
+    "Barranquilla": null,
+    "Bogotá": "L",
+    "Pereira": null,
+    "Cali": "XL"
+  },
+  "criterio_elegido": "arrepentimiento",
+  "diseno_robusto_demanda_actual_entero": {
+    "estado": "Optimal",
+    "Z": 241679127482.3752,
+    "cota_inferior": 241656900000.0,
+    "brecha": 9.197104692805792e-05,
+    "costos": {
+      "T_I": 86067477730.05524,
+      "T_II": 123811683805.37471,
+      "A_f": 15929799960.344173,
+      "A_v": 15870165986.601292
+    },
+    "flujo": {
+      "Medellín": 494436.0,
+      "Barranquilla": 0,
+      "Bogotá": 142482.0,
+      "Pereira": 0,
+      "Cali": 540000.0
+    },
+    "segundos": 14.084134340286255
+  },
+  "tiempo_total_segundos": 649.2245900630951
+}

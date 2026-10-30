@@ -1,0 +1,295 @@
+{
+  "descripcion": "Sensibilidad del diseño propuesto a un cambio uniforme de la demanda (factor lambda sobre todas las categorías y zonas). Un diseño deja de ser óptimo cuando el modelo libre elige otro conjunto de CEDI abiertos o tamaños.",
+  "metodo": {
+    "exploracion": "modelo con viajes continuos (relajación), malla de lambda y bisección",
+    "verificacion": "modelo entero completo a 1 punto porcentual de cada umbral",
+    "tolerancia_lambda": 0.0025
+  },
+  "diseno_propuesto": {
+    "Medellín": null,
+    "Barranquilla": null,
+    "Bogotá": "M",
+    "Pereira": "XL",
+    "Cali": "XL"
+  },
+  "demanda_base_posiciones": 1176918.0,
+  "capacidad_diseno_propuesto": 1404000.0,
+  "lambda_maximo_factible_diseno_propuesto": 1.1929463225135482,
+  "umbrales": {
+    "inferior": {
+      "lambda_ultimo_con_diseno_propuesto": 0.9781249999999999,
+      "lambda_primero_con_otro_diseno": 0.9765625,
+      "variacion_demanda_pct": -2.34375,
+      "demanda_umbral_posiciones": 1149333.984375,
+      "diseno_optimo_al_cruzar": "Bogotá S, Pereira XL, Cali XL"
+    },
+    "superior": {
+      "lambda_ultimo_con_diseno_propuesto": 1.05,
+      "lambda_primero_con_otro_diseno": 1.0515625000000002,
+      "variacion_demanda_pct": 5.156250000000018,
+      "demanda_umbral_posiciones": 1237602.834375,
+      "diseno_optimo_al_cruzar": "Medellín XL, Bogotá L, Cali XL"
+    }
+  },
+  "rango_de_validez": {
+    "lambda_min": 0.9781249999999999,
+    "lambda_max": 1.05
+  },
+  "malla": [
+    {
+      "lambda": 0.7,
+      "demanda": 823842.6,
+      "diseno_optimo": {
+        "Medellín": "L",
+        "Barranquilla": null,
+        "Bogotá": null,
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 168750742039.40195,
+      "Z_diseno_propuesto": 172670163952.59384,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 3919421913.1918945,
+      "sobrecosto_pct": 0.023226101798573075
+    },
+    {
+      "lambda": 0.75,
+      "demanda": 882688.5,
+      "diseno_optimo": {
+        "Medellín": "L",
+        "Barranquilla": null,
+        "Bogotá": null,
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 180381522528.22784,
+      "Z_diseno_propuesto": 183983821319.7482,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 3602298791.520355,
+      "sobrecosto_pct": 0.01997044232153342
+    },
+    {
+      "lambda": 0.8,
+      "demanda": 941534.4,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": null,
+        "Bogotá": null,
+        "Pereira": "L",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Pereira L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 192288527403.82947,
+      "Z_diseno_propuesto": 195330454678.5744,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 3041927274.744934,
+      "sobrecosto_pct": 0.015819598370299618
+    },
+    {
+      "lambda": 0.85,
+      "demanda": 1000380.2999999999,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": null,
+        "Bogotá": null,
+        "Pereira": "XL",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Pereira XL, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 203763917342.5438,
+      "Z_diseno_propuesto": 206725057663.83493,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 2961140321.2911377,
+      "sobrecosto_pct": 0.014532211393998766
+    },
+    {
+      "lambda": 0.9,
+      "demanda": 1059226.2,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": null,
+        "Bogotá": null,
+        "Pereira": "XL",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Pereira XL, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 215253468700.53345,
+      "Z_diseno_propuesto": 218214609025.1761,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 2961140324.642639,
+      "sobrecosto_pct": 0.01375652779264737
+    },
+    {
+      "lambda": 0.95,
+      "demanda": 1118072.0999999999,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": "S",
+        "Bogotá": null,
+        "Pereira": "XL",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Barranquilla S, Pereira XL, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 229139992209.14352,
+      "Z_diseno_propuesto": 229755284425.3426,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 615292216.1990662,
+      "sobrecosto_pct": 0.0026852240425908236
+    },
+    {
+      "lambda": 1.0,
+      "demanda": 1176918.0,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": null,
+        "Bogotá": "M",
+        "Pereira": "XL",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Bogotá M, Pereira XL, Cali XL",
+      "es_diseno_propuesto": true,
+      "Z_optimo": 241353847944.3116,
+      "Z_diseno_propuesto": 241353847951.01453,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 6.702911376953125,
+      "sobrecosto_pct": 2.7772133877474827e-11
+    },
+    {
+      "lambda": 1.05,
+      "demanda": 1235763.9000000001,
+      "diseno_optimo": {
+        "Medellín": null,
+        "Barranquilla": null,
+        "Bogotá": "M",
+        "Pereira": "XL",
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Bogotá M, Pereira XL, Cali XL",
+      "es_diseno_propuesto": true,
+      "Z_optimo": 253176722919.13547,
+      "Z_diseno_propuesto": 253176723141.8201,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 222.68463134765625,
+      "sobrecosto_pct": 8.795620260034001e-10
+    },
+    {
+      "lambda": 1.1,
+      "demanda": 1294609.8,
+      "diseno_optimo": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín XL, Bogotá L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 264751585761.56827,
+      "Z_diseno_propuesto": 265388490133.3374,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 636904371.7691345,
+      "sobrecosto_pct": 0.0024056678260757315
+    },
+    {
+      "lambda": 1.15,
+      "demanda": 1353455.7,
+      "diseno_optimo": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín XL, Bogotá L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 276387321164.82245,
+      "Z_diseno_propuesto": 277612461018.13696,
+      "estado_diseno_propuesto": "Optimal",
+      "sobrecosto_diseno_propuesto": 1225139853.3145142,
+      "sobrecosto_pct": 0.004432691948933168
+    },
+    {
+      "lambda": 1.2,
+      "demanda": 1412301.5999999999,
+      "diseno_optimo": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín XL, Bogotá L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 288056975819.33075,
+      "Z_diseno_propuesto": null,
+      "estado_diseno_propuesto": "Infeasible",
+      "sobrecosto_diseno_propuesto": null,
+      "sobrecosto_pct": null
+    },
+    {
+      "lambda": 1.25,
+      "demanda": 1471147.5,
+      "diseno_optimo": {
+        "Medellín": "XL",
+        "Barranquilla": null,
+        "Bogotá": "L",
+        "Pereira": null,
+        "Cali": "XL"
+      },
+      "diseno_optimo_texto": "Medellín XL, Bogotá L, Cali XL",
+      "es_diseno_propuesto": false,
+      "Z_optimo": 299773852329.72186,
+      "Z_diseno_propuesto": null,
+      "estado_diseno_propuesto": "Infeasible",
+      "sobrecosto_diseno_propuesto": null,
+      "sobrecosto_pct": null
+    }
+  ],
+  "verificacion_entera": [
+    {
+      "umbral": "inferior",
+      "lambda": 0.9881,
+      "estado": "Factible (límite de tiempo)",
+      "Z": 238678742060.74075,
+      "brecha": 0.010200791405717856,
+      "diseno": "Bogotá M, Pereira XL, Cali XL",
+      "es_diseno_propuesto": true
+    },
+    {
+      "umbral": "inferior",
+      "lambda": 0.9666,
+      "estado": "Factible (límite de tiempo)",
+      "Z": 233448844820.742,
+      "brecha": 0.00751228742249139,
+      "diseno": "Bogotá S, Pereira XL, Cali XL",
+      "es_diseno_propuesto": false
+    },
+    {
+      "umbral": "superior",
+      "lambda": 1.04,
+      "estado": "Optimal",
+      "Z": 250865330207.68997,
+      "brecha": 0.0005566341414111092,
+      "diseno": "Bogotá M, Pereira XL, Cali XL",
+      "es_diseno_propuesto": true
+    },
+    {
+      "umbral": "superior",
+      "lambda": 1.0616,
+      "estado": "Optimal",
+      "Z": 255955140423.4031,
+      "brecha": 0.00044082108769709285,
+      "diseno": "Medellín XL, Bogotá L, Cali XL",
+      "es_diseno_propuesto": false
+    }
+  ],
+  "tiempo_total_segundos": 904.262069940567
+}

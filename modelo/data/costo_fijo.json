@@ -1,0 +1,92 @@
+{
+  "descripcion": "g[j][s]: costo anual de operacion (COP) del CEDI candidato j (codigo DANE) con tamano s",
+  "fuente": {
+    "archivo": "Costeo_anual_CEDIS.xlsx",
+    "hoja": "Matriz CEDI x Tamaño",
+    "columnas": {
+      "cedi": "A",
+      "costo_anual": "E:I"
+    }
+  },
+  "conjuntos": {
+    "W": [
+      "5001",
+      "8001",
+      "11001",
+      "66001",
+      "76001"
+    ],
+    "S": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "candidatos": {
+    "5001": {
+      "ciudad": "Medellín",
+      "departamento": "Antioquia",
+      "cedi": "CEDI Medellin"
+    },
+    "8001": {
+      "ciudad": "Barranquilla",
+      "departamento": "Atlántico",
+      "cedi": "CEDI Barranquilla"
+    },
+    "11001": {
+      "ciudad": "Bogotá",
+      "departamento": "Cundinamarca",
+      "cedi": "CEDI Bogotá (ejemplo)"
+    },
+    "66001": {
+      "ciudad": "Pereira",
+      "departamento": "Risaralda",
+      "cedi": "CEDI Pereira"
+    },
+    "76001": {
+      "ciudad": "Cali",
+      "departamento": "Valle del Cauca",
+      "tamano_fijo": "XL",
+      "cedi": "CEDI Cali"
+    }
+  },
+  "g": {
+    "5001": {
+      "XS": 990460582.6652772,
+      "S": 1561324396.9513488,
+      "M": 2786575283.322664,
+      "L": 4097197336.6200576,
+      "XL": 6059579721.221324
+    },
+    "8001": {
+      "XS": 890402494.94655,
+      "S": 1388508769.6651268,
+      "M": 2489699257.208161,
+      "L": 3669801146.9891257,
+      "XL": 5451079286.096254
+    },
+    "11001": {
+      "XS": 1049153055.3527223,
+      "S": 1662806828.4296947,
+      "M": 2961140324.6425667,
+      "L": 4348403367.78285,
+      "XL": 6418118386.251227
+    },
+    "66001": {
+      "XS": 980361035.0993593,
+      "S": 1543861737.8250482,
+      "M": 2756536883.8920355,
+      "L": 4053970886.20137,
+      "XL": 5997883934.080552
+    },
+    "76001": {
+      "XS": 902429264.2680001,
+      "S": 1409113528.5360003,
+      "M": 2524749702.804,
+      "L": 3720419922.0720005,
+      "XL": 5521816871.34
+    }
+  }
+}
