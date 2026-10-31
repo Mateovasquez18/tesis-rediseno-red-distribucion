@@ -9,7 +9,7 @@ Este repositorio contiene los datos, el código y los resultados necesarios para
 ## Estructura
 
 ```
-rediseno-red-distribucion/
+tesis-rediseno-red-distribucion/
 ├── datos/                         Archivos Excel de entrada
 │   ├── Datos_Demanda_Normalizados.xlsx     demanda 2025, rutas (KM_Zonas), vehículos (Ref_Veh), tamaños de CEDI
 │   ├── Costeo_anual_CEDIS.xlsx             costo anual y costo por tonelada de cada CEDI por tamaño
@@ -40,6 +40,11 @@ pip install -r requirements.txt
 Se usa **PuLP 2.9.0**, que incluye el solver CBC. PuLP 4.x cambió su API (`LpVariable.dicts`, `LpStatus`) y no es compatible con este código.
 
 ## Cómo replicar el caso
+
+```bash
+git clone https://github.com/Mateovasquez18/tesis-rediseno-red-distribucion.git
+cd tesis-rediseno-red-distribucion
+```
 
 Ejecutar desde la raíz del repositorio, en este orden:
 
